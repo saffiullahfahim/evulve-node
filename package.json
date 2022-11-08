@@ -1,0 +1,36 @@
+{
+  "name": "evulve.me",
+  "version": "1.0.0",
+  "description": "Evulve Node Environment and API",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "prod": "NODE_ENV=production node app.js"
+  },
+  "homepage": "https://evulve.me",
+  "license": "UNLICENSED",
+  "private": true,
+  "author": {
+    "name": "Evulve"
+  },
+  "contributors": [
+    {
+      "name": "Saffiullah Fahim",
+      "email": "saffiullah.fahim@gmail.com",
+      "url": "https://github.com/saffiullahfahim"
+    }
+  ],
+  "devDependencies": {
+    "eslint": "8.2.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "2.25.2",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "http-errors": "^2.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
